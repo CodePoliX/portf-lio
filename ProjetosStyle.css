@@ -1,0 +1,62 @@
+.LocalProjetos{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 300px;
+    justify-content: space-between;
+}
+
+.geral h2{
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 30px;
+    color: #DA954A;
+    font-size: x-large;
+}
+
+.calculadora-imc p{
+    text-align: center;
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: small;
+}
+
+.calculadora-imc img{
+    max-width: 190px;
+}
+
+.local img{
+    max-width: 190px;
+}
+
+/* Media query para telas menores, como dispositivos móveis */
+@media (max-width: 767px) {
+    .LocalProjetos{
+        margin: 30px 10px;
+    }
+
+    .calculadora-imc img{
+        max-width: 90px;
+    }
+    .calculadora-imc{
+        max-width: 100px;
+    }
+
+    .calculadora-imc p{
+        font-size: 9px;
+        font-family: 'BioRhyme', serif;
+        font-weight: 700;
+    }
+
+    .local img{
+        max-width: 90px;
+    }
+}
+
+/* Estilos para tablets em modo retrato */
+@media (min-width: 767px) and (max-width: 1023px) {
+    .LocalProjetos{
+        margin: 50px 10px;
+    }
+}
+
+/* Estilos para tablets em modo paisagem e desktops */
+@media (min-width: 1024px) {}

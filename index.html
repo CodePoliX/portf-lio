@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Poliana Padilha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@300;400;700&family=Bungee+Inline&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="menu">
+        <div class="logotipo">
+            <a href="index.html"><p>Poliana Padilha</p></a>
+        </div>
+        <nav class="menu">
+            <ul class="menu-desktop">
+                <li><a href="ProjetosPage.html">Projetos</a></li>
+                <li><a href="SobreMimPage.html">Sobre mim</a></li>
+                <li><a href="ContratarPage.html">Contratar</a></li>
+
+            </ul>
+            <div class="menu-mobile">
+            <div class="hamburguer" onclick="toggleMenu()">&#9776;</div>
+                <ul id="menuDropdown" class="menu-dropdown">
+                    <li><a href="ProjetosPage.html">Projetos</a></li>
+                    <li><a href="SobreMimPage.html">Sobre mim</a></li>
+                    <li><a href="ContratarPage.html">Contratar</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="Container">
+        <aside>
+            <img src="image/minha foto mobile.png" alt="Foto da Poliana" class="imagem-mobile">
+            <img src="image/minha foto.png" alt="Foto da Poliana" class="imagem-desktop">
+        </aside>
+        <section class="texto-principal">
+            <div class="texto-boas-vindas">
+                <p>Seja Bem vindo(a) ao meu portfólio,<br>
+                    <span class="alinhar">eu sou <span class="dev-mobile">Desenvolvedora Mobile!</span></span></p>
+            </div>
+            <div class="icones">
+                <a href="ProjetosPage.html"><img src="image/Icone Projetos.png" alt="Projetos" class="projetos" onclick="animarBotao()"></a>
+                <a href="Recursos/curriculo.pdf" download="Recursos/curriculo"><img src="image/icone curriculo.png" alt="Currículo" class="curriculo" onclick="animarBotao()"></a>
+                <a href="ContratarPage.html"><img src="image/Icone email.png" alt="Email" class="email" onclick="animarBotao()"></a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Ícones de <a href="https://www.flaticon.com/br/icones-gratis/o-email" title="O email ícones criados por Muhammad Ali - Flaticon">E-mail</a>, <a href="https://www.flaticon.com/br/icones-gratis/projeto" title="Projeto ícones criados por dDara - Flaticon">Projeto</a> e <a href="https://www.flaticon.com/br/icones-gratis/pesquisa" title="Pesquisa ícones criados por Freepik - Flaticon">Currículo</a> criados por seus respectivos autores - Flaticon.</p>
+        <p>&copy; Poliana Petry Padilha - 2023</p>
+    </footer>
+    <script src="Recursos/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Define a altura da seção como 100% da altura da viewport */
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+
+h1{
+    color: #DA954A;
+}
+.redes{
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .text p, a{
+    font-size: small;
+  }
+  
+  h1{
+    font-size: large;
+  }
+}
